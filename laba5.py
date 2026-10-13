@@ -5,11 +5,11 @@ def func(a,b):
     n=int(input())
     while not(a<=n<=b):
         if n>b:
-            print("Too much")
+            print("Перелёт")
         elif n<a:
-            print("Too low")
+            print("Недолёт")
         n=int(input())
-    print("Hell yeah")
+    print("Число угадано")
 a=int(input())
 b=int(input())
 func(a,b)
